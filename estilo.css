@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+aside {
+     height: 800px;
+     width: 20%;
+     float: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     font-family: 'staatliches', 'cursive';
+
+     font-size: 18px;
+}
+header {
+    align-content: center;
+    background-color:white;
+} 
+
+.dados {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formacao {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 { 
+    text-align: center;
+}
